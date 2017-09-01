@@ -13,7 +13,7 @@ import { Router } from '@angular/router';
 })
 export class HeroesComponent implements OnInit {
   ngOnInit(): void {
-    console.log('ngOnInit');
+    //console.log('ngOnInit');
     this.getHeroes();
   };
   title = 'Tours of heroes';
